@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<presentation guid="5995F218-B2B0-43AF-B301-691B0C57113E" version="0" availableOffline="1">
+<presentation guid="4C1AA7CE-6384-4EBD-8EF1-393DC7AEB30D" version="0" availableOffline="1">
 	<info>
 		<title>WADV Training 1</title>
 		<description/>
 	</info>
-	<files index="id137" thumbnail="id210" totalSize="56807050">
+	<files index="id137" thumbnail="id195" totalSize="54501554">
 		<file id="id0">data/thmb1.png</file>
 		<file id="id1">data/slide1.js</file>
 		<file id="id2">data/slide1.css</file>
@@ -189,34 +189,19 @@
 		<file id="id185">data/img30.png</file>
 		<file id="id186">data/img31.png</file>
 		<file id="id187">data/img32.png</file>
-		<file id="id188">data/img33.png</file>
-		<file id="id189">data/img34.png</file>
-		<file id="id190">data/img35.png</file>
-		<file id="id191">data/img36.png</file>
-		<file id="id192">data/img37.png</file>
-		<file id="id193">data/img38.png</file>
-		<file id="id194">data/img39.png</file>
-		<file id="id195">data/img4.png</file>
-		<file id="id196">data/img40.png</file>
-		<file id="id197">data/img41.png</file>
-		<file id="id198">data/img42.png</file>
-		<file id="id199">data/img43.png</file>
-		<file id="id200">data/img44.png</file>
-		<file id="id201">data/img45.png</file>
-		<file id="id202">data/img46.png</file>
-		<file id="id203">data/img47.png</file>
-		<file id="id204">data/img5.png</file>
-		<file id="id205">data/img6.png</file>
-		<file id="id206">data/img7.png</file>
-		<file id="id207">data/img8.png</file>
-		<file id="id208">data/img9.png</file>
-		<file id="id209">data/logo.png</file>
-		<file id="id210">data/ismplayer/preview.png</file>
-		<file id="id211">data/ismplayer/play.svg</file>
-		<file id="id212">data/ismplayer/style.css</file>
-		<file id="id213">data/ismplayer/style_mini.css</file>
-		<file id="id214">ismplayer.html</file>
-		<file id="id215">data/ismplayer/app_store2x.png</file>
-		<file id="id216">metainfo.xml</file>
+		<file id="id188">data/img4.png</file>
+		<file id="id189">data/img5.png</file>
+		<file id="id190">data/img6.png</file>
+		<file id="id191">data/img7.png</file>
+		<file id="id192">data/img8.png</file>
+		<file id="id193">data/img9.png</file>
+		<file id="id194">data/logo.png</file>
+		<file id="id195">data/ismplayer/preview.png</file>
+		<file id="id196">data/ismplayer/play.svg</file>
+		<file id="id197">data/ismplayer/style.css</file>
+		<file id="id198">data/ismplayer/style_mini.css</file>
+		<file id="id199">ismplayer.html</file>
+		<file id="id200">data/ismplayer/app_store2x.png</file>
+		<file id="id201">metainfo.xml</file>
 	</files>
 </presentation>
