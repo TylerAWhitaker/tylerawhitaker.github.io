@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns01001000011" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+  <layouts>
+    <layout name="npnxnanbsnfns01001000011" font="Montserrat Medium" controllayout="npnxnanbsnfns01001000011" colorscheme="npnxnanbnsnfns01001000011" string_table="npnxnanbnsnfns01001000011" />
+    <layout name="pxabnsnfns01001000011" font="Montserrat Medium" controllayout="pxabnsnfns01001000011" colorscheme="npnxnanbnsnfns01001000011" string_table="npnxnanbnsnfns01001000011" />
+    <layout name="npxnabnsnfns01001000011" font="Montserrat Medium" controllayout="npxnabnsnfns01001000011" colorscheme="npnxnanbnsnfns01001000011" string_table="npnxnanbnsnfns01001000011" />
+    <layout name="npnxnanbnsnfns01001000011" font="Montserrat Medium" controllayout="npnxnanbnsnfns01001000011" colorscheme="npnxnanbnsnfns01001000011" string_table="npnxnanbnsnfns01001000011" />
+    <layout name="pxabnsnfns01001000010" font="Montserrat Medium" controllayout="pxabnsnfns01001000010" colorscheme="npnxnanbnsnfns01001000011" string_table="npnxnanbnsnfns01001000011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="RAINN Informative Course" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content\5l5XeyQouCN_DX1024_DY1024.jpg" />
+              <option name="html5_logo_url" value="mobile/5dtwHwzbcWm.jpg" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="right" />
+              <option name="closed" value="true" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="restricted" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns01001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns01001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns01001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001000010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns01001000011">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x29A746" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6264" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8E8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F4548" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0F4972" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns01001000011">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Montserrat Medium">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6Ctt6DZ8UFC" displaytext="RAINN" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Ctt6DZ8UFC.6Nw6vxftbv1" displaytext="Welcome!" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ctt6DZ8UFC.5pbJgKt9pNX" displaytext="Course Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ctt6DZ8UFC.6YzIUtctJxI" displaytext="RAINN’s Mission" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ctt6DZ8UFC.5ww9BoX20qN" displaytext="Programs and Services" expand="false" type="slide">
+              <links>
+                <slidelink slideid="" displaytext="Victim Services" expand="true" type="slide" />
+                <slidelink slideid="" displaytext="Counseling &amp;amp; Training" expand="true" type="slide" />
+                <slidelink slideid="" displaytext="Public Education" expand="true" type="slide" />
+                <slidelink slideid="" displaytext="Public Policy" expand="true" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6Ctt6DZ8UFC.6eTWgoJBlS1" displaytext="Get Involved!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6Ctt6DZ8UFC.6Nw6vxftbv1" slidebank="false" type="slide">  welcome! thank you for your interest in helping rainn! this course will give you an overview of the kind of work we do and what you can do to participate! start course start course start course start course start course start course tyler a. whitaker</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.5pbJgKt9pNX" slidebank="false" type="slide">course overview mission programs &amp; services victim services	 public education public policy consulting services get involved rainn provides many programs and services as well as opportunities for volunteers like you to get involved. by the end of this lesson, you will be able to… explain rainn's mission describe the programs &amp; expertise rainn provides identify ways to support or get involved with rainn course topics</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.6YzIUtctJxI" slidebank="false" type="slide">rainn’s mission rainn (rape, abuse &amp; incest national network) is the nation's largest anti-sexual violence organization.  rainn operates helplines, such as the national sexual assault hotline and department of defense safe helpline in partnership with more than 1,000 local sexual assault service  providers across the country. rainn also carries out programs to prevent sexual violence, help survivors, and ensure that perpetrators are brought to  justice.   tyler a. whitaker</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.5ww9BoX20qN" slidebank="false" type="slide">programs and services we have experts in victim services, public education, public policy, consulting services, and technology.  we provide best-in-class services for survivors, inform and educate the nation about sexual violence, and improve the public policy and criminal justice response to sexual violence. click the categories to the right to learn more about the services we provide counseling &amp; training counseling &amp; training counseling &amp; training counseling &amp; training  public education public education public education public education  public policy public policy public policy public policy  victim services victim services victim services victim services      tyler a. whitaker</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.6eTWgoJBlS1" slidebank="false" type="slide"> we can’t do it alone! we need volunteers like you! whether you have five minutes or five months, you can make a difference in the lives of survivors. find out how find out how find out how find out how find out how find out how get involved! volunteer for the national sexual assault hotline. we will train you to provide live, anonymous crisis support to survivors across the country. learn more fundraise for rainn to support survivors of sexual violence. donate on your birthday, run a 5k, or start your own campaign. learn more spread the word on social media and educate others about sexual assault prevention and recovery. #actwithrainn learn more want to be a student activist? raise your voice with the prevention navigator to rate your college’s prevention programs. learn more</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.6hy0Caifu0x" slidebank="false" type="slide"> how will you get involved with rainn? volunteer volunteer volunteer volunteer volunteer volunteer fundraising fundraising fundraising fundraising fundraising fundraising social media social media social media social media social media social media    student activism student activism student activism student activism student activism student activism now you know what rainn does and what you can do to help.  choose how you would like to get involved with rainn today: tyler a. whitaker</slidetext>
+      <slidetext slideid="6Ctt6DZ8UFC.5qi77rPHkRB" slidebank="false" type="slide">get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started get started   thank you! congratulations, you have completed the course! thank you for your interest in helping rainn. you can get started right now by clicking the button to the right!  restart course  restart course  restart course  restart course  restart course  restart course tyler a. whitaker</slidetext>
+      <slidetext slideid="5hrPcx2SgNi.5r2ToRFTS7m" slidebank="false" type="slide">victim services our experts take a victim-centered, trauma-informed approach to supporting survivors of sexual violence and their loved ones. we have developed programs to help survivors in all stages of recovery.   our telephone and online hotlines have helped more than 2.5 million survivors.  tyler a. whitaker</slidetext>
+      <slidetext slideid="5hrPcx2SgNi.6r0sY4QNTqH" slidebank="false" type="slide">victim services the national sexual assault hotline is probably our most well-known operation.  it can be reach via phone at 800.656.hope. learn more at online.rainn.org  or for spanish rainn.org/es. did you know we also have a helpline for members of the department of defense community? learn more at dod safe helpline. in addition, we provide innovative technology and services for partners in the field, as well as training services for companies and organizations. we train staff and volunteers at more than 1,000 local sexual assault service provider partners.   tyler a. whitaker</slidetext>
+      <slidetext slideid="5hrPcx2SgNi.5VOcG4cYF92" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect not quite! go back and find the answer. continue continue continue continue continue continue correct that's right! click to continue the course. continue continue continue continue continue continue  can you remember the the national sexual assault hotline number? 800.656.hope 800.656.hope 800.656.hope 800.656.hope 800.656.hope 800.656.hope 800.656.rain 800.656.rain 800.656.rain 800.656.rain 800.656.rain 800.656.rain 800.656.help 800.656.help 800.656.help 800.656.help 800.656.help 800.656.help    tyler a. whitaker</slidetext>
+      <slidetext slideid="6mXxqbhf14S.5fJ9ZTcCSU8" slidebank="false" type="slide">counseling &amp; training often, organizations do not know how to respond to incidents of sexual violence. that is why we offer a variety of specialized consulting services to meet each organization’s unique needs, including hotline services, consulting, program assessments, education, and training.   we help organizations facilitate healing and promote safe and healthy communities.  tyler a. whitaker</slidetext>
+      <slidetext slideid="6mXxqbhf14S.6gpQCACouaq" slidebank="false" type="slide">counseling &amp; training we assist a variety of organizations across the public, private, and nonprofit sectors.  we offer not only victim service expertise, but also technology infrastructure to provide crisis intervention hotline services that are high-quality, anonymous, and confidential. organizations range from having no sexual assault policies to having  policies in place for decades. fortunately, our work helps organizations that are at any point in the process. we provide education and trainings for professionals and volunteers nationwide. if an organization has a program already, we can conduct program assessment, making sure it is victim-centered and trauma-informed. we use leading research, regulatory guidance, and state and federal laws to evaluate program strengths and weaknesses.   tyler a. whitaker</slidetext>
+      <slidetext slideid="6mXxqbhf14S.5rTUAPe81VD" slidebank="false" type="slide">incorrect not quite! go back and find the answer. try again try again try again try again try again try again incorrect not quite! go back and find the answer. continue continue continue continue continue continue correct that's right! click to continue the course. continue continue continue continue continue continue  which of the following best describes rainn’s consulting services? tailored and specialized to each organization’s needs tailored and specialized to each organization’s needs tailored and specialized to each organization’s needs tailored and specialized to each organization’s needs tailored and specialized to each organization’s needs tailored and specialized to each organization’s needs providing hotline training specifically to the private sector providing hotline training specifically to the private sector providing hotline training specifically to the private sector providing hotline training specifically to the private sector providing hotline training specifically to the private sector providing hotline training specifically to the private sector mostly focused on program assessments for organizations who already have policies in place mostly focused on program assessments for organizations who already have policies in place mostly focused on program assessments for organizations who already have policies in place mostly focused on program assessments for organizations who already have policies in place mostly focused on program assessments for organizations who already have policies in place mostly focused on program assessments for organizations who already have policies in place    tyler a. whitaker</slidetext>
+      <slidetext slideid="6pVTD9jOW3L.63DxNiuF7HO" slidebank="false" type="slide">public education our experts advance the public’s understanding of sexual violence. we work with the media, entertainment industry, and colleges across the country to provide accurate information about sexual violence prevention, prosecution, and recovery.   rainn is the go-to source for expert commentary and research on sexual violence news tyler a. whitaker</slidetext>
+      <slidetext slideid="6pVTD9jOW3L.6HKqdewzdSF" slidebank="false" type="slide">public education two major resources we operate are  speakers bureau, a network of more than 1,500 survivors who share their stories. prevention navigator, a free, online resource to help colleges find the right sexual assault program. media can often depict sexual violence inaccurately, so we collaborate with the entertainment industry to ensure that shows and films reflect the reality of sexual assault.  in addition, we use our news page and social media ,  to highlight rainn's work, react to current events, and ensure that people who need support can find it. finally, we work with student activists to raise visibility of sexual violence prevention and recovery on campus.   tyler a. whitaker</slidetext>
+      <slidetext slideid="6pVTD9jOW3L.5dhCUlw6w01" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect not quite! go back and find the answer. continue continue continue continue continue continue correct that's right! click to continue the course. continue continue continue continue continue continue  which of the following is not part of rainn’s commitment to public education? providing college scholarships to sexual assault survivors providing college scholarships to sexual assault survivors providing college scholarships to sexual assault survivors providing college scholarships to sexual assault survivors providing college scholarships to sexual assault survivors providing college scholarships to sexual assault survivors consulting with tv and filmmakers to ensure sexual crimes are depicted accurately consulting with tv and filmmakers to ensure sexual crimes are depicted accurately consulting with tv and filmmakers to ensure sexual crimes are depicted accurately consulting with tv and filmmakers to ensure sexual crimes are depicted accurately consulting with tv and filmmakers to ensure sexual crimes are depicted accurately consulting with tv and filmmakers to ensure sexual crimes are depicted accurately operating a network of survivors who share their stories operating a network of survivors who share their stories operating a network of survivors who share their stories operating a network of survivors who share their stories operating a network of survivors who share their stories operating a network of survivors who share their stories    tyler a. whitaker</slidetext>
+      <slidetext slideid="5vQKCx4JJhe.6SPBvDfB8Tw" slidebank="false" type="slide">public policy we work at the federal and state level to improve the criminal justice system, prevent sexual assault, and ensure justice for survivors.   the rape kit backlog is currently one of the biggest obstacles to prosecuting perpetrators of sexual violence. tyler a. whitaker</slidetext>
+      <slidetext slideid="5vQKCx4JJhe.5g0QOIzlgmR" slidebank="false" type="slide">public policy we help to create and advocate for laws and regulations that make communities safer and support survivors. we work closely with the departments of justice, education, and health &amp; human services to improve the federal response to sexual violence. two of our major projects are the rape kit action project (to end the rape kit backlog) and the laws in your state database, the most up-to-date source of information on sexual violence laws across the nation.   tyler a. whitaker</slidetext>
+      <slidetext slideid="5vQKCx4JJhe.6jJ0TvqdNvy" slidebank="false" type="slide">incorrect not quite! go back and find the answer. try again try again try again try again try again try again incorrect not quite! go back and find the answer. continue continue continue continue continue continue correct that's right! click to continue the course. continue continue continue continue continue continue  public policy is most closely related to which parts of rainn’s mission? (select more than one) ensure that perpetrators are brought to justice ensure that perpetrators are brought to justice ensure that perpetrators are brought to justice ensure that perpetrators are brought to justice ensure that perpetrators are brought to justice ensure that perpetrators are brought to justice prevent sexual violence prevent sexual violence prevent sexual violence prevent sexual violence prevent sexual violence prevent sexual violence operating the national sexual assault hotline operating the national sexual assault hotline operating the national sexual assault hotline operating the national sexual assault hotline operating the national sexual assault hotline operating the national sexual assault hotline submit submit submit submit submit submit    tyler a. whitaker</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
