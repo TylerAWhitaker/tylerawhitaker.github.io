@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.80.31058.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:03.892%0D%0ABingo%20nights%20are%20often%20run%20by%20fire%20companies%20in%20rural%20areas.%0D%0A%0D%0A"}')
